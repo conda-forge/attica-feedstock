@@ -1,5 +1,5 @@
 {% set name = "attica" %}
-{% set version = "5.65.0" %}
+{% set version = "5.66.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/attica-{{ version }}.tar.xz
-  sha256: a62908517f9cf44fd13c2cb37868f6484710284bc85bd85b532c3b8b7fc2b9ea
+  sha256: e87ea061d393104804aa65db69ec3489512b472d8fb821c9fc49ffdcb85177fb
 
 build:
   number: 0
