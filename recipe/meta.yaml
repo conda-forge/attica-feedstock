@@ -1,5 +1,5 @@
 {% set name = "attica" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/attica-{{ version }}.tar.xz
-  sha256: f4f3f6892287192deb61f38bab01c457d7950701f3e09c44a15809e7880ec3fa
+  sha256: 9b4001a32831c9bae1d44161247acd5e6d3048ca2ece98c2c756c72a1464b9e9
 
 build:
   number: 0
@@ -42,7 +42,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING
-  summary: 'Open Collaboration Service client library'
+  summary: Open Collaboration Service client library
   description: |
     Attica is a Qt library that implements the Open Collaboration Services API version 1.6.
   dev_url: https://cgit.kde.org/attica.git/tree
