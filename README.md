@@ -3,11 +3,13 @@ About attica
 
 Home: https://api.kde.org/frameworks/attica/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/attica-feedstock/blob/master/LICENSE.txt)
 
 Summary: Open Collaboration Service client library
+
+Development: https://cgit.kde.org/attica.git/tree
 
 Attica is a Qt library that implements the Open Collaboration Services API version 1.6.
 
