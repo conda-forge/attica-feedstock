@@ -11,7 +11,7 @@ source:
   sha256: 64b262f61935653b91a83f4d1c659e7dcaf575b12aa955fe16d8392adb256e22
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('attica', max_pin='x.x') }}
@@ -31,7 +31,7 @@ requirements:
   host:
     - xorg-libxfixes  # [linux]
     - xorg-libxext
-    - qt
+    - qt-main
 
 test:
   commands:
